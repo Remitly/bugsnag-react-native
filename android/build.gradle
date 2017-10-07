@@ -1,7 +1,10 @@
 apply plugin: 'com.android.library'
 
 android {
-    buildToolsVersion '23.0.1'
+    // REMITLY - This version is too old for the latest Android Gradle Plugin and causes
+    // Android Studio to fail gradle sync. Commenting the buildToolsVersion out lets
+    // the plugin just choose its own preferred version.
+    // buildToolsVersion '23.0.1'
     compileSdkVersion 23
 
     defaultConfig {
