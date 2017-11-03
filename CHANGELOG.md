@@ -1,6 +1,33 @@
 Changelog
 =========
 
+## 2.5.3 (2017-11-02)
+
+* Updates native libraries to include latest fixes
+
+## 2.5.2 (2017-11-02)
+
+* Support setting `autoNotify` to disable native crash reporting
+
+## 2.5.1 (2017-10-26)
+
+* Replace PropTypes from React with prop-types package
+* Adds example project which uses react native via cocoapods
+
+## 2.5.0 (2017-10-09)
+
+### Enhancements
+
+* Add configuration option to enable capturing console log messages as
+  breadcrumbs
+  [#159](https://github.com/bugsnag/bugsnag-react-native/pull/159)
+  [Ben Gourley](https://github.com/bengourley)
+
+### Bug fixes
+
+* [android] Reuse previously configured Bugsnag native client if available
+  [#156](https://github.com/bugsnag/bugsnag-react-native/pull/156)
+
 ## 2.4.2 (2017-10-04)
 * Fix duplicate symbols in KSCrash when Sentry library included in project
 
